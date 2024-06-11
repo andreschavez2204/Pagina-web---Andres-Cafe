@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre's Cafe | Contacto</title>
+    <link rel="preload" href="./css/styles.css" as ="style">
+    <link rel="stylesheet" href="/css/normaliza.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,75..100;1,75..100&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a href="/index.html" class="logo no-margin centrar-texto">
+                    <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+        <div class="fondo">    
+        </div>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" type="text" placeholder="Tu nombre" id="nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__label"  for="email">Email</label>
+                <input type="email" placeholder="Tu email" id="email"
+                class="campo__field" >
+            </div>
+            <div class="campo">
+                <label class="campo__label"  for="mensaje">Mensaje</label>
+                <textarea id="mensaje" class=" campo__field campo__field--textarea" ></textarea>
+            </div>
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
+    </main>
+            
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra-footer">
+                <a href="/index.html" class="logo-footer no-margin centrar-texto">
+                    <h1 class="footer__nombre no-margin">Blog<span class="footer__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion-footer">
+                    <a href="nosotros.html" class="navegacion-footer__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion-footer__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion-footer__enlace">Contacto</a>
+                </nav>
+            </div>
+            <p class="footer__derechos">Andres's Cafe - Todos los derechos reservados 2024.</p>
+        </div>
+    </footer>
+    <script src="/js/modernizr.js"></script>
+</body>
+</html>
